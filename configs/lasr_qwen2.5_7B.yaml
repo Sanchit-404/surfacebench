@@ -1,0 +1,11 @@
+name: Lasr-qwen-2.5-7B
+class_name: LasrSearcher
+api_type: "openai"
+api_model: "Qwen/Qwen2.5-7B-Instruct"
+api_url: "https://api.deepinfra.com/v1/openai"
+
+num_iterations: 25
+num_populations: 10
+llm_weight: 0.001
+early_stopping_condition: null
+max_num_samples: 2000

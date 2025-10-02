@@ -1,0 +1,11 @@
+name: "PySR_Explicit_Searcher"
+class_name: PySRSearcher
+api_type: null
+niterations: 30
+mode: "explicit"
+binary_operators: ["+", "-", "*", "/"]
+unary_operators: ["sin", "cos", "tan", "exp", "log"] #add more these are just examples.
+nested_constraints:
+  tan:
+    tan: 1
+procs: 4

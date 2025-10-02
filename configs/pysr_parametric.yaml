@@ -1,0 +1,11 @@
+name: "PySR_Parametric_Searcher"
+niterations: 30
+class_name: PySRSearcher
+mode: "parametric"
+api_type: null
+binary_operators: ["+", "-", "*", "/"]
+unary_operators: ["sin", "cos", "tan", "exp", "log"] #add more these are just examples.
+nested_constraints:
+  tan:
+    tan: 1
+procs: 4
