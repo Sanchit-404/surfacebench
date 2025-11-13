@@ -2,4 +2,4 @@ name: SGA-Llama31_8b
 class_name: SGASearcher
 api_type: "openai"
 api_model: "meta-llama/Meta-Llama-3-8B-Instruct"
-api_url: "https://api.deepinfra.com/v1/openai"
+api_url: ""

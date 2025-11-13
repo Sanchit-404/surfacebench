@@ -1,4 +1,4 @@
-name: Llmsr-gpt4o-mini-specialized
+name: Llmsr-gpt4o-mini
 class_name: LLMSRSearcher
 api_type: "openai"
 api_model: "gpt-4o-mini"

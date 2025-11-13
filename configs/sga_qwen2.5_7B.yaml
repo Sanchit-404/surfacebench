@@ -1,5 +1,0 @@
-name: SGA-qwen2.5_7B
-class_name: SGASearcher
-api_type: "openai"
-api_model: "Qwen/Qwen2.5-7B-Instruct"
-api_url: "https://api.deepinfra.com/v1/openai"

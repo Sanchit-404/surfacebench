@@ -12,6 +12,4 @@ python eval.py --dataset Algebraic_Manifolds_of_Higher_Degree --searcher_config 
 python eval.py --dataset Algebraic_Manifolds_of_Higher_Degree --searcher_config configs/llmsr_llama31_8b.yaml --local_llm_port 10005
 
 # SurfaceBench-Parametric Dataset | PySR
-python eval.py --dataset Transformed_Coordinate_Surfaces --searcher_config configs/pysr_parametric.yaml --local_llm_port 10005
-python eval.py --dataset High-Dimensional_Parametric_Srufaces --searcher_config configs/pysr_parametric.yaml --local_llm_port 10005
-python eval.py --dataset Topologically_Rich_Parametric_Sufaces --searcher_config configs/pysr_parametric.yaml --local_llm_port 10005
+python eval.py --dataset Transformed_Coordinate_Surfaces --searcher_config configs/pysr_parametric.yaml

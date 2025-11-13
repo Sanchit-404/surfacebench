@@ -23,17 +23,17 @@ llm:
   # Models for evolution
   models:
     # List of available models with their weights
-    - name: "Qwen/Qwen2.5-7B-Instruct"
+    - name: "Qwen/Qwen3-8B-Instruct"
       weight: 0.8
-    - name: "Qwen/Qwen2.5-7B-Instruct"
+    - name: "Qwen/Qwen3-8B-Instruct"
       weight: 0.2
 
   # Models for LLM feedback
   evaluator_models:
     # List of available models with their weights
-    - name: "Qwen/Qwen2.5-7B-Instruct"
+    - name: "Qwen/Qwen3-8B-Instruct"
       weight: 0.8
-    - name: "Qwen/Qwen2.5-7B-Instruct"
+    - name: "Qwen/Qwen3-8B-Instruct"
       weight: 0.2
 
   # API configuration

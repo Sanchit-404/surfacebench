@@ -33,7 +33,7 @@ for category_dir in "$base_problems_dir"/*/; do
                 fi
 
                 echo "  Launching Parametric Sub-Problem: $problem_name"
-                cmd="python ../openevolve-run.py \"$initial_program_path\" \"$evaluator_path\" --config \"$config_path\" --iterations 2"
+                cmd="python ../openevolve-run.py \"$initial_program_path\" \"$evaluator_path\" --config \"$config_path\" --iterations 1000"
                 eval $cmd &
             done
         done
@@ -62,7 +62,7 @@ for category_dir in "$base_problems_dir"/*/; do
             fi
 
             echo "  Launching $category_name - $problem_name"
-            cmd="python ../../openevolve-run.py \"$initial_program_path\" \"$evaluator_path\" --config \"$config_path\" --iterations 10"
+            cmd="python ../../openevolve-run.py \"$initial_program_path\" \"$evaluator_path\" --config \"$config_path\" --iterations 1000"
             eval $cmd &
         done
     fi

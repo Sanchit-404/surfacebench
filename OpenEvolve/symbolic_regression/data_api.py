@@ -681,20 +681,20 @@ def main():
     # Define dataset splits and their problem counts
     splits_data = {
         "Parametric_Equations": 30,
-        # "Algebraic Manifolds of Higher Degree": 10,
-        # "Bio-Inspired_Morphological_Surfaces": 10,
-        # "Complex_Composite_Surfaces": 10,
-        # "Discrete_Symbolic_Grid_Surfaces": 10,
-        # "Hybrid_Multi-Modal_Symbolic_Surfaces": 10,
-        # "Non-Canonical_3D_Geometric_Surfaces": 11,
-        # "Piecewise_Regime_Surfaces": 10,
-        # "Procedural_Fractal_Surfaces": 10,
-        # "Symbolic-Numeric_Composite_Surfaces": 10,
-        # "Tensor_Field_Surfaces": 10,
-        # "Quantum_Inspired_Surfaces":10,
-        # "Nonlinear_Dynamical_System_Surfaces":9,
-        # "Stochastic_Process_Surfaces":10,
-        # "Surrogate_Distilled_Symbolic_Approximations":9
+        "Algebraic Manifolds of Higher Degree": 10,
+        "Bio-Inspired_Morphological_Surfaces": 10,
+        "Complex_Composite_Surfaces": 10,
+        "Discrete_Symbolic_Grid_Surfaces": 10,
+        "Hybrid_Multi-Modal_Symbolic_Surfaces": 10,
+        "Non-Canonical_3D_Geometric_Surfaces": 11,
+        "Piecewise_Regime_Surfaces": 10,
+        "Procedural_Fractal_Surfaces": 10,
+        "Symbolic-Numeric_Composite_Surfaces": 10,
+        "Tensor_Field_Surfaces": 10,
+        "Quantum_Inspired_Surfaces":10,
+        "Nonlinear_Dynamical_System_Surfaces":9,
+        "Stochastic_Process_Surfaces":10,
+        "Surrogate_Distilled_Symbolic_Approximations":9
     }
 
     all_tasks = []

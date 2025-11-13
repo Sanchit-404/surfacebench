@@ -1,8 +1,8 @@
-name: Lasr-qwen-2.5-7B
+name: Lasr-qwen3-8B-Instruct
 class_name: LasrSearcher
 api_type: "openai"
-api_model: "Qwen/Qwen2.5-7B-Instruct"
-api_url: "https://api.deepinfra.com/v1/openai"
+api_model: "Qwen/Qwen3-8B-Instruct"
+api_url: ""
 
 num_iterations: 25
 num_populations: 10

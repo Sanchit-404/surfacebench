@@ -1,4 +1,4 @@
-name: Llmsr-DeepInfra-Llama31_8b
+name: Llmsr-Llama31_8b
 class_name: LLMSRSearcher
 api_type: "openai"
 api_model: "meta-llama/Meta-Llama-3.1-8B-Instruct"

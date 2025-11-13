@@ -2,7 +2,7 @@ name: Lasr-Llama3.1-8B
 class_name: LasrSearcher
 api_type: "openai"
 api_model: "meta-llama/Meta-Llama-3.1-8B-Instruct"
-api_url: "https://api.deepinfra.com/v1/openai"
+api_url: ""
 
 num_iterations: 25
 num_populations: 10

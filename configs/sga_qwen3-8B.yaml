@@ -1,0 +1,5 @@
+name: SGA-Qwen3-8B-Instruct
+class_name: SGASearcher
+api_type: "openai"
+api_model: "Qwen/Qwen3-8B-Instruct"
+api_url: ""

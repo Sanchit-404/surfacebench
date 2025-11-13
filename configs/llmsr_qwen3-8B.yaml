@@ -1,8 +1,8 @@
-name: Llmsr-DeepInfra-Qwen2.5_7B-Instruct
+name: Llmsr-Qwen3-8B-Instruct
 class_name: LLMSRSearcher
 api_type: "openai"
-api_model: "Qwen/Qwen2.5-7B-Instruct"
-api_url: "https://api.deepinfra.com/v1/openai"
+api_model: "Qwen/Qwen3-8B-Instruct"
+api_url: ""
 global_max_sample_num: 1000
 samples_per_prompt: 4
 functions_per_prompt: 4
