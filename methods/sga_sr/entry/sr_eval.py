@@ -30,7 +30,8 @@ def main():
     cfg = sga.config.EvalConfig(path=args.path, dataset_path=args.dataset_path)
     cfg.update(unknown_args)
 
-    torch_device = torch.device(f'cuda:{cfg.gpu}') 
+    # torch_device = torch.device(f'cuda:{cfg.gpu}') 
+    torch_device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
     log_root = root / 'log'
     if Path(cfg.path).is_absolute():

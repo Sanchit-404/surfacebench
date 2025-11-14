@@ -42,7 +42,8 @@ def main():
                                  dataset_path=args.dataset_path)
     cfg.update(unknown_args)
 
-    torch_device = torch.device(f'cuda:{cfg.gpu}') 
+    # torch_device = torch.device(f'cuda:{cfg.gpu}') 
+    torch_device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
     log_root = root / 'log'
     if Path(cfg.path).is_absolute():
@@ -97,8 +98,7 @@ def main():
         else:
             raise ValueError(f'Unknown scheduler: {cfg.optim.scheduler}')
     
-    dm = get_datamodule(name=cfg.dataset_name, 
-                        root_folder=cfg.dataset_path)
+    dm = get_datamodule(name=cfg.dataset_name)
     dm.setup()
     problem = dm.problems[dm.name2id[args.problem_name]]
     samples = problem.train_samples
