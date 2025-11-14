@@ -1,6 +1,6 @@
 # `SurfaceBench`: Benchmark for 3D Scientific Surface Discovery 
 
-[![Benchmark Dataset](https://img.shields.io/badge/%F0%9F%A4%97_Dataset-SurfaceBench-ffbd00.svg)](https://huggingface.co/datasets/pandoradox/symbolic-regression-surfaces)
+[![Benchmark Dataset](https://img.shields.io/badge/%F0%9F%A4%97_Dataset-SurfaceBench-ffbd00.svg)](https://huggingface.co/datasets/Shobhnik/SurfaceBench)
 
 ## Overview
 In this paper, we introduce SurfaceBench, a benchmark built to push equation discovery beyond simple scalar functions and into the richer setting of symbolic surface recovery. The benchmark contains 183 tasks covering 15 different categories, each capturing a distinct kind of symbolic or geometric complexity. Every task provides a ground-truth surface equation along with variable meanings and a 3D point cloud sampled from it, spanning scientific areas such as fluid dynamics, robotics, electromagnetics, and classical geometry. Our goal is to challenge LLM-based symbolic regression systems in a way that existing datasets do not: the surfaces in SurfaceBench are constructed to avoid easy memorization, include diverse representation forms (explicit, implicit, parametric), and reflect realistic scientific structure.

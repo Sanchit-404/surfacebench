@@ -5,10 +5,10 @@ from pathlib import Path
 from typing import List, Optional, Any
 from huggingface_hub import hf_hub_download
 
-from .data_classes import Equation, Problem, SEDTask
+from data_classes import Equation, Problem, SEDTask
 
-SURFACEBENCH_REPO_ID = "Shobhnik/Final-Surfacebench-dataset"
-SURFACEBENCH_HDF5_FILENAME = "SurfaceBench_Data.h5"
+SURFACEBENCH_REPO_ID = "Shobhnik/SurfaceBench"
+SURFACEBENCH_HDF5_FILENAME = "dataset.h5"
 
 def _download(repo_id, filename):
     """Downloads a specific file from a Hugging Face Hub repo."""
