@@ -1,6 +1,10 @@
 # `SurfaceBench`: Benchmark for 3D Scientific Surface Discovery 
 
+This is the repository for the paper "[SurfaceBench: Can Self-Evolving LLMs Find the Equations of 3D Scientific Surfaces?](https://arxiv.org/pdf/2511.10833)"
+
+[![Paper](https://img.shields.io/badge/arXiv-2511.10833-b31b1b.svg)](https://arxiv.org/pdf/2511.10833)
 [![Benchmark Dataset](https://img.shields.io/badge/%F0%9F%A4%97_Dataset-SurfaceBench-ffbd00.svg)](https://huggingface.co/datasets/Shobhnik/SurfaceBench)
+
 
 ## Overview
 In this paper, we introduce SurfaceBench, a benchmark built to push equation discovery beyond simple scalar functions and into the richer setting of symbolic surface recovery. The benchmark contains 183 tasks covering 15 different categories, each capturing a distinct kind of symbolic or geometric complexity. Every task provides a ground-truth surface equation along with variable meanings and a 3D point cloud sampled from it, spanning scientific areas such as fluid dynamics, robotics, electromagnetics, and classical geometry. Our goal is to challenge LLM-based symbolic regression systems in a way that existing datasets do not: the surfaces in SurfaceBench are constructed to avoid easy memorization, include diverse representation forms (explicit, implicit, parametric), and reflect realistic scientific structure.
@@ -282,8 +286,6 @@ python eval.py --dataset "Tensor_Field_Surfaces" --searcher_config configs/pysr_
 This repository is licensed under MIT licence.
 
 This work is built on top of other open source projects, including [Openevolve](https://github.com/algorithmicsuperintelligence/openevolve), [LLM-SR](https://github.com/deep-symbolic-mathematics/llm-sr), [LaSR](https://github.com/trishullab/LibraryAugmentedSymbolicRegression.jl), [SGA](https://github.com/PingchuanMa/SGA), and [PySR](https://github.com/MilesCranmer/PySR), and is inspired by the effort behind [LLM-SRBench](https://github.com/deep-symbolic-mathematics/llm-srbench/). We thank the original contributors of these works for open-sourcing their valuable source codes. 
-
-
 
 ## Contact Us
 
