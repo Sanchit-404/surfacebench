@@ -3,7 +3,7 @@
 This is the official repository for the paper "[SurfaceBench: Can Self-Evolving LLMs Find the Equations of 3D Scientific Surfaces?](https://arxiv.org/pdf/2511.10833)" <b>(TMLR 2026)</b>
 
 [![Paper](https://img.shields.io/badge/arXiv-2511.10833-b31b1b.svg)](https://arxiv.org/pdf/2511.10833)
-[![Benchmark Dataset](https://img.shields.io/badge/%F0%9F%A4%97_Dataset-SurfaceBench-ffbd00.svg)](https://huggingface.co/datasets/Shobhnik/SurfaceBench)
+[![Benchmark Dataset](https://img.shields.io/badge/%F0%9F%A4%97_Dataset-SurfaceBench-ffbd00.svg)](https://huggingface.co/datasets/ishobhnik/SurfaceBench)
 
 
 ## Overview

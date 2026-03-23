@@ -5,8 +5,8 @@ import h5py
 from huggingface_hub import hf_hub_download
 from .data_classes import Equation, SynProblem 
 
-REPO_ID = "shobhnik/surfacebench"
-HDF5_FILENAME = "surface_bench_data.hdf5"
+REPO_ID = "ishobhnik/SurfaceBench"
+HDF5_FILENAME = "dataset.h5"
 
 def _download(repo_id, filename):
     return hf_hub_download(repo_id=repo_id, filename=filename, repo_type="dataset")
